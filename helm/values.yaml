@@ -7,7 +7,7 @@ image:
   repository: maciuozz/test-argocd-app
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: 1.0.0
+  tag: 1.0.1
 # imagePullSecrets created to use Docker Hub Private Account
 imagePullSecrets:
   - name: dockerhub-access
